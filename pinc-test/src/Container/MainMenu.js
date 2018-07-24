@@ -37,7 +37,7 @@ class MainMenu extends React.Component{
             <div className="row main-menu">
                 <NavBar />
                 <SearchForm />
-                <div id = "addButton">
+                <div className = "addButton">
                     <Button type = "btn-light btn-lg" value="Add Post" onClick={this.handleOpenModal} />
                     <ReactModal
                         isOpen={this.state.showModal}

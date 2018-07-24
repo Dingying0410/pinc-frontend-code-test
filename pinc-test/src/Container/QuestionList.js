@@ -14,7 +14,7 @@ class QuestionList extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://cors-anywhere.herokuapp.com/https://apinew.pincapp.com/api/questions")
+        axios.get("https://apinew.pincapp.com/api/questions")
             .then(
                 (result) => {
                     this.setState({
