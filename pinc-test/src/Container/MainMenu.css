@@ -1,0 +1,80 @@
+.searchForm {
+    margin-left: 200px;
+}
+
+#addButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 34px;
+}
+
+#addButton button {
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-menu {
+    background-color: purple;
+}
+
+.Modal {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: auto;
+    bottom: auto;
+    height: 50%;
+    width: 60%;
+    background-color: lightgray;
+}
+
+.modal-box {
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+}
+
+.modal-box-text {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.modal-box-submit {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.post_btn_span {
+    display: inline-block;
+    float: right;
+}
+
+.post_btn {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.anonymous-checkbox {
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: 10px;
+
+}
+
+.anonymous-checkbox-label {
+    margin-left: 15px;
+    color: gray;
+    font-weight: normal;
+}
+
